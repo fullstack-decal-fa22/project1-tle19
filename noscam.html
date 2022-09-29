@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not A Scam</title>
+</head>
+<body>
+    <h4>This is just some information that you need to fill out, nothing to worry about. ;))</h4>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <br>
+        <br>
+
+        <label>Password:</label>
+        <input type="text" id="password">
+        <br>
+        <br>
+
+        <label>Date of Birth:</label>
+        <input type="text" id="dob">
+        <br>
+        <br>
+
+        <label>Address:</label>
+        <input type="text" id="address">
+        <br>
+        <br>
+
+        <label>Social Security Number:</label>
+        <input type="text" id="ssn">
+        <br>
+        <br>
+
+        <input type="button" onclick="error()" value="Submit">
+
+        <script>
+            function error() {
+                var newLine = "\n"
+                var msg = "WARNING!"
+                msg += newLine + newLine
+                msg += "Your Windows 11 is infected with Viruses and other malicious applications. Viruses must be removed and system damage repaired."
+                msg += newLine + newLine
+                msg += "The following data may be compromised if you continue:"
+                msg += newLine + newLine
+                msg += "1. Passwords"
+                msg += newLine
+                msg += "2. Credit Card Information"
+                msg += newLine
+                msg += "3. Local Files"
+                alert(msg);
+            }
+        </script>
+    </form>
+</body>
+</html>
